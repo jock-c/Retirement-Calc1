@@ -34,7 +34,7 @@ version = 1.0.0
 # building kivy. Pinning here forces p4a to build CPython 3.11.9 instead.
 # Also install the matching toolchain before building (see colab_build.md /
 # the GitHub workflow): buildozer==1.5.0 + python-for-android==2024.1.21.
-requirements = python3==3.11.9,kivy==2.3.0,pyjnius
+requirements = python3,kivy==2.3.0,pyjnius
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait, sensorPortrait, all or sensor)
 orientation = portrait
@@ -81,7 +81,7 @@ android.debug_artifact = apk
 
 #
 # Python for android (p4a) specific
-#
+p4a.branch = v2024.01.2
 
 # (str) Bootstrap to use for android builds
 p4a.bootstrap = sdl2
