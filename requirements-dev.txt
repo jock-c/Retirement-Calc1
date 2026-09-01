@@ -1,0 +1,15 @@
+# Desktop-only requirements for RUNNING and TESTING main.py on a PC
+# before building the Android package. These are NOT the Android
+# requirements - those live in buildozer.spec ("requirements = ...").
+#
+#     python -m venv venv
+#     venv\Scripts\activate        (Windows)   /   source venv/bin/activate  (Linux/macOS)
+#     pip install -r requirements-dev.txt
+#     python main.py
+#
+kivy==2.3.0
+
+# Buildozer itself only runs on Linux/macOS (or WSL on Windows). Install
+# the PINNED toolchain there (a newer python-for-android targets CPython
+# 3.13/3.14, which Kivy 2.3.0 cannot compile against):
+#     pip install "buildozer==1.5.0" "python-for-android==2024.1.21" "cython<3.1"

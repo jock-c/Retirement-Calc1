@@ -1,0 +1,13 @@
+# Buildozer / python-for-android
+.buildozer/
+.buildozer_global/
+bin/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
