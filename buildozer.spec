@@ -81,10 +81,11 @@ android.debug_artifact = apk
 
 #
 # Python for android (p4a) specific
-p4a.branch = v2024.01.2
+# p4a.branch = v2024.01.2
 
 # (str) Bootstrap to use for android builds
 p4a.bootstrap = sdl2
+p4a.branch = v2024.01.21
 
 
 [buildozer]
