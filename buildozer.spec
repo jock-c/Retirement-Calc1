@@ -27,7 +27,7 @@ version = 1.0.0
 # (list) Application requirements
 # python-for-android ships its own SDL2, so kivy_deps.* are NOT needed here.
 #
-# `python3==3.11.9` is a HARD PIN and must stay. Recent python-for-android
+# `python3` is a HARD PIN and must stay. Recent python-for-android
 # defaults the target interpreter to CPython 3.13/3.14, and Kivy 2.3.0's
 # Cython-generated C does not compile there (removed `Py_UNICODE`, changed
 # `_PyLong_AsByteArray` signature) - you get "N errors generated" while
