@@ -22,7 +22,7 @@ source.exclude_exts = spec,txt,md
 source.exclude_dirs = tests, bin, venv, .git, .github, __pycache__, .buildozer
 
 # (str) Application versioning (method 1)
-version = 1.0.0
+version = 1.0.1
 
 # (list) Application requirements
 # python-for-android ships its own SDL2, so kivy_deps.* are NOT needed here.
