@@ -3,6 +3,10 @@
 # (str) Title of your application
 title = Retirement Super Timeline
 
+# (str) Launcher icon - a square PNG, 512x512 recommended.
+# Put the file at RetirementTimeline_AndroidKit/data/icon.png
+icon.filename = %(source.dir)s/data/icon.png
+
 # (str) Package name
 package.name = retirementtimeline
 
